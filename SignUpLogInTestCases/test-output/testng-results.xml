@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-17T13:28:30 EET" name="Default suite" finished-at="2025-11-17T13:29:48 EET" duration-ms="77989">
+    <groups>
+    </groups>
+    <test started-at="2025-11-17T13:28:30 EET" name="Default test" finished-at="2025-11-17T13:29:48 EET" duration-ms="77989">
+      <class name="learningTools.QA.AuthAndProfileTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:learningTools.QA.AuthAndProfileTests@4009e306]" started-at="2025-11-17T13:28:30 EET" name="setUp" finished-at="2025-11-17T13:28:42 EET" duration-ms="12142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SIGNUP_001_verifyUserCanCreateAccountWithValidData()[pri:0, instance:learningTools.QA.AuthAndProfileTests@4009e306]" started-at="2025-11-17T13:28:42 EET" name="SIGNUP_001_verifyUserCanCreateAccountWithValidData" finished-at="2025-11-17T13:29:03 EET" duration-ms="21395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SIGNUP_001_verifyUserCanCreateAccountWithValidData -->
+        <test-method signature="SIGNUP_002_verifyAllFieldsMandatory()[pri:0, instance:learningTools.QA.AuthAndProfileTests@4009e306]" started-at="2025-11-17T13:29:03 EET" name="SIGNUP_002_verifyAllFieldsMandatory" finished-at="2025-11-17T13:29:13 EET" duration-ms="9616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SIGNUP_002_verifyAllFieldsMandatory -->
+        <test-method signature="SIGNUP_003_invalidEmailFormat()[pri:0, instance:learningTools.QA.AuthAndProfileTests@4009e306]" started-at="2025-11-17T13:29:13 EET" name="SIGNUP_003_invalidEmailFormat" finished-at="2025-11-17T13:29:20 EET" duration-ms="7057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SIGNUP_003_invalidEmailFormat -->
+        <test-method signature="SIGNUP_004_weakPasswordValidation()[pri:0, instance:learningTools.QA.AuthAndProfileTests@4009e306]" started-at="2025-11-17T13:29:20 EET" name="SIGNUP_004_weakPasswordValidation" finished-at="2025-11-17T13:29:28 EET" duration-ms="8351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SIGNUP_004_weakPasswordValidation -->
+        <test-method signature="SIGNUP_005_termsCheckboxRequired()[pri:0, instance:learningTools.QA.AuthAndProfileTests@4009e306]" started-at="2025-11-17T13:29:28 EET" name="SIGNUP_005_termsCheckboxRequired" finished-at="2025-11-17T13:29:38 EET" duration-ms="9499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SIGNUP_005_termsCheckboxRequired -->
+        <test-method signature="SIGNUP_006_existingEmailError()[pri:0, instance:learningTools.QA.AuthAndProfileTests@4009e306]" started-at="2025-11-17T13:29:38 EET" name="SIGNUP_006_existingEmailError" finished-at="2025-11-17T13:29:47 EET" duration-ms="9725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SIGNUP_006_existingEmailError -->
+        <test-method signature="SIGNUP_007_navigateSignupToLogin()[pri:0, instance:learningTools.QA.AuthAndProfileTests@4009e306]" started-at="2025-11-17T13:29:47 EET" name="SIGNUP_007_navigateSignupToLogin" finished-at="2025-11-17T13:29:48 EET" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SIGNUP_007_navigateSignupToLogin -->
+      </class> <!-- learningTools.QA.AuthAndProfileTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
