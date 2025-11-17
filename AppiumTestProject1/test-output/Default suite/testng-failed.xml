@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Axos.appiumTest.TestFlashCardMaker">
+        <methods>
+          <include name="checkPreviousArrowFunction"/>
+          <include name="clickCancel"/>
+          <include name="clickSaveAfterFilling"/>
+          <include name="answerfieldAudibibty"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="clickContinueEditing"/>
+          <include name="SetTesting"/>
+          <include name="clickFlashCardMaker"/>
+          <include name="checkingXbuttonFunction"/>
+          <include name="checkNextArrowFunction"/>
+          <include name="deletemessageDisplaying"/>
+          <include name="clickCreateStackNullStackName"/>
+          <include name="deleteCardfunction"/>
+          <include name="clickSaveEmptyFields"/>
+          <include name="addLongStackName"/>
+          <include name="questionFieldAudiibility"/>
+          <include name="getImageList"/>
+          <include name="addingDuplicateFlashCards"/>
+          <include name="addingGalleryimage"/>
+          <include name="correctFillPageRedirection"/>
+          <include name="addFlashcard"/>
+          <include name="TypeStackName"/>
+        </methods>
+      </class> <!-- com.Axos.appiumTest.TestFlashCardMaker -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
